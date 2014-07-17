@@ -1,0 +1,53 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  box-sizing: inherit;
+}
+
+.hotspot {
+  position: absolute;
+  background-color: hsla(190, 100%, 50%, 0.3);
+  border: 2px solid hsla(190, 50%, 50%, 0.4);
+  z-index: 10;
+}
+
+#top {
+  left:25%;
+  top: 0;
+  width: 50%;
+  height: 25%;
+}
+
+#right {
+  right: 0;
+  top: 25%;
+  width: 25%;
+  height: 50%;
+}
+
+#bottom {
+  left: 25%;
+  bottom: 0;
+  width: 50%;
+  height: 25%;
+}
+
+#left {
+  left: 0;
+  top: 25%;
+  width: 25%;
+  height: 50%;
+}
+
+video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
